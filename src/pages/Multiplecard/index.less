@@ -1,0 +1,107 @@
+.card_list{
+    padding: .2rem .3rem .6rem;
+    .member-card{
+        display: block;
+        position: relative;
+        border-radius: .14rem;
+        font-family: PingFangSC-Regular;
+        color: #fff;
+        min-height: 2.92rem;
+        margin-top: .2rem;
+        box-shadow: 0 6px 10px 0 rgba(0,0,0,0.13);
+        background-size: 100%;
+        background-color: #3474bc;
+        .img{
+            border: 0;
+            display: inline-block;
+            background-size: 50%;
+        }
+        .card-avatar{
+            display: inline-block;
+            width: .62rem;
+            height: .62rem;
+            margin: 0;
+            padding: .04rem;
+            position: absolute;
+            left: 23%;
+            top: .9rem;
+            border-radius: 50%;
+        }
+        .card-desc{
+            position: absolute;
+            left: 35.5%;
+            top: 0.8rem;
+            width: 62%;
+            div {
+                h2{
+                    font-size: .36rem;
+                    line-height: .5rem;
+                    font-weight: normal;
+                    margin: 0;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                p{
+                    font-size: .26rem;
+                    line-height: .37rem;
+                    opacity: .8;
+                    font-weight: normal;
+                    margin: 0;
+                }
+            }
+        }
+        .card-footer{
+            position: absolute;
+            box-sizing: border-box;
+            width: 100%;
+            height: .76rem;
+            line-height: .76rem;
+            padding: 0 .2rem 0 .27rem;
+            background-color: rgba(0,0,0,0.08);
+            bottom: 0;
+            font-size: .26rem;
+            border-radius: 0 0 .14rem .14rem;
+            overflow: hidden;
+            .card-save-count{
+                float: left;
+                background: url(/bs/file/?f=myfe/canary:img/membercard/notice.png) left 47% no-repeat;
+                background-size: .3rem;
+                span{
+                    margin-right: .1rem;
+                }
+            }
+            .card-status{
+                float: right;
+            }
+        }
+        .instruction{
+            position: absolute;
+            top: .2rem;
+            left: 4%;
+            line-height: .34rem;
+            opacity: .6;
+            font-size: .24rem;
+            font-family: PingFangSC-Regular;
+            color: #FFFFFF;
+        }
+        .card-mark{
+            position: absolute;
+            top: 0;
+            right: .2rem;
+            padding: 0 .1rem;
+            height: .48rem;
+            line-height: .48rem;
+            background-color:rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-size: .24rem;
+            color: #fff;
+            opacity: .8;
+        }
+    }
+}
+.img {
+    border: 0;
+    display: inline-block;
+    background-size: 50%;
+}
