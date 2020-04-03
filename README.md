@@ -1,24 +1,25 @@
-# movie
+# 鼠眼电影
 
-## Project setup
-```
-npm install
-```
+## 完成后图片在appImage中可观看
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 应用技术
 
-### Compiles and minifies for production
-```
-npm run build
-```
+**使用Vue全家桶，axios，better-scroll，mint-ui等** 相关框架完成实现
 
-### Lints and fixes files
-```
-npm run lint
-```
+## api 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+**使用豆瓣电影API 以及 部分猫眼api**
+
+## 完成功能
+
+1. 电影列表显示 (包含详情页)
+  
+2. 影院列表显示 (包含详情页)
+
+3. 卡表列表显示 (包含详情页 与 添加操作) 
+
+4. 我的 （包含购物记录Vuex实现）
+
+5. 搜素 
+
+6. 城市列表
